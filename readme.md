@@ -2,15 +2,15 @@
 The provided sample projects offer a concise yet effective demonstration of the components from IPWorks IPC, showcasing their usage in a straightforward manner. While they are not intended to be complete applications, they serve as valuable illustrations of key features. To enhance clarity, error handling and checks are simplified, allowing users to focus on the core functionality.
 
 ## Requirements
-IPWorks IPC 2022 libraries for the corresponding edition are required to run these samples.  Free download from: [https://www.nsoftware.com/ipworksipc](https://www.nsoftware.com/ipworksipc)
+IPWorks IPC 2024 libraries for the corresponding edition are required to run these samples.  Free download from: [https://www.nsoftware.com/ipworksipc](https://www.nsoftware.com/ipworksipc)
 
 ## Reference Documentation
-* [.NET Edition](https://cdn.nsoftware.com/help/ICH/cs/)
-* [Python Edition](https://cdn.nsoftware.com/help/ICH/py/)
-* [C++ Edition](https://cdn.nsoftware.com/help/ICH/cpp/)
-* [Delphi Edition](https://cdn.nsoftware.com/help/ICH/dlp/)
-* [macOS Edition](https://cdn.nsoftware.com/help/ICH/mac/)
-* [iOS Edition](https://cdn.nsoftware.com/help/ICH/mac/)
+* [.NET Edition](https://cdn.nsoftware.com/help/ICJ/cs/)
+* [Python Edition](https://cdn.nsoftware.com/help/ICJ/py/)
+* [C++ Edition](https://cdn.nsoftware.com/help/ICJ/cpp/)
+* [Delphi Edition](https://cdn.nsoftware.com/help/ICJ/dlp/)
+* [macOS Edition](https://cdn.nsoftware.com/help/ICJ/mac/)
+* [iOS Edition](https://cdn.nsoftware.com/help/ICJ/mac/)
 
 ## Sample Projects
 | Sample Project | Description |

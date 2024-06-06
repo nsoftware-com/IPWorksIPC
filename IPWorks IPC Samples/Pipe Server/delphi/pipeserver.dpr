@@ -1,5 +1,5 @@
 (*
- * IPWorks IPC 2022 Delphi Edition - Sample Project
+ * IPWorks IPC 2024 Delphi Edition - Sample Project
  *
  * This sample project demonstrates the usage of IPWorks IPC in a 
  * simple, straightforward way. It is not intended to be a complete 

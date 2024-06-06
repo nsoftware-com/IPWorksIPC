@@ -1,5 +1,5 @@
 (*
- * IPWorks IPC 2022 Delphi Edition - Sample Project
+ * IPWorks IPC 2024 Delphi Edition - Sample Project
  *
  * This sample project demonstrates the usage of IPWorks IPC in a 
  * simple, straightforward way. It is not intended to be a complete 
@@ -97,7 +97,7 @@ procedure TFormPipeclient.tbtSendClick(Sender: TObject);
 begin
       if PipeClient1.Connected then
       begin
-         PipeClient1.DataToSend := txtText.Text + #13#10;
+         PipeClient1.SendText(txtText.Text + #13#10);
          ITrack.Items.Add('Sending ''' + txtText.Text + '''' + #13#10);
       end
       else begin

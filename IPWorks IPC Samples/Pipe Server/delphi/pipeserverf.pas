@@ -1,5 +1,5 @@
 (*
- * IPWorks IPC 2022 Delphi Edition - Sample Project
+ * IPWorks IPC 2024 Delphi Edition - Sample Project
  *
  * This sample project demonstrates the usage of IPWorks IPC in a 
  * simple, straightforward way. It is not intended to be a complete 
@@ -78,7 +78,7 @@ procedure TFormPipeserver.PipeServer1DataIn(Sender: TObject;
   ConnectionId: Integer; Text: string; TextB: TArray<System.Byte>; EOL: Boolean);
 begin
       tbLog.Items.Add('Echoing [' + IntToStr(ConnectionId) + ']: ' + Text + #13#10);
-      PipeServer1.DataToSend[ConnectionId] := Text + #13#10;
+      PipeServer1.SendText(ConnectionId, Text + #13#10);
 end;
 
 procedure TFormPipeserver.PipeServer1Disconnected(Sender: TObject;
@@ -90,7 +90,7 @@ end;
 procedure TFormPipeserver.tbtSendClick(Sender: TObject);
 begin
      try
-      PipeServer1.DataToSend[clientId] := txtMessage.Text + #13#10;
+      PipeServer1.SendText(clientId, txtMessage.Text + #13#10);
       tbLog.Items.Add('Sending ' + txtMessage.Text + #13#10);
     except on E: Exception do
       ShowMessage(E.Message);
